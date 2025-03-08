@@ -13,7 +13,7 @@ void tearDown(void)
 
 void test_add_positive_numbers(void) 
 {
-    TEST_ASSERT_EQUAL(10, add(5,4)); // We expect 2 + 3 to be 5
+    TEST_ASSERT_EQUAL(10, add(5,5)); // We expect 2 + 3 to be 5
 }
 
 void test_add_negative_numbers(void) 
