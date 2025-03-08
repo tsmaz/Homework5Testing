@@ -75,7 +75,7 @@ void test_subtract_underflow(void)
     TEST_ASSERT_TRUE(result < 0);
 }
 
-test_multiply_positive_numbers(void) 
+void test_multiply_positive_numbers(void) 
 {
     TEST_ASSERT_EQUAL(15, multiply(5,3)); // We expect 5 * 3 to be 15
 }
@@ -104,7 +104,7 @@ void test_multiply_overflow(void)
 void test_multiply_underflow(void)
 {
     int result = multiply(INT_MIN, 2);
-    TEST_ASSERT_TRUE(result > 0);
+    TEST_ASSERT_TRUE(result == 0);
 }
 
 void test_divide_positive_numbers(void) 
