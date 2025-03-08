@@ -47,12 +47,12 @@ int main(void)
 {
     UNITY_BEGIN();
 
-    RUN_TEST(test_add_positive_numbers); // Run our test function
-    RUN_TEST(test_add_negative_numbers); // Run our test function
-    RUN_TEST(test_add_positive_and_negative_numbers); // Run our test function
-    RUN_TEST(test_add_zero); // Run our test function
-    RUN_TEST(test_add_overflow); // Run our test function
-    RUN_TEST(test_add_underflow); // Run our test function
+    RUN_TEST(test_add_positive_numbers); 
+    RUN_TEST(test_add_negative_numbers); 
+    RUN_TEST(test_add_positive_and_negative_numbers); 
+    RUN_TEST(test_add_zero); 
+    RUN_TEST(test_add_overflow); 
+    RUN_TEST(test_add_underflow); 
 
     return UNITY_END();
 }
